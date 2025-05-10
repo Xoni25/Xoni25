@@ -29,7 +29,32 @@
   line-height: 1.6;
   color: #e0f7fa;
 }
+.background-glow { 
+.background-glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(0,255,247,0.15), transparent 70%);
+  animation: pulse 3s infinite ease-in-out;
+  z-index: -1;
+}
 
+@keyframes pulse {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.5; }
+}
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(0,255,247,0.15), transparent 70%);
+  animation: pulse 3s infinite ease-in-out;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.5; }
+}
 .neon-button {
   margin-top: 30px;
   padding: 15px 30px;
