@@ -29,32 +29,7 @@
   line-height: 1.6;
   color: #e0f7fa;
 }
-.background-glow { 
-.background-glow {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at center, rgba(0,255,247,0.15), transparent 70%);
-  animation: pulse 3s infinite ease-in-out;
-  z-index: -1;
-}
 
-@keyframes pulse {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 0.5; }
-}
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at center, rgba(0,255,247,0.15), transparent 70%);
-  animation: pulse 3s infinite ease-in-out;
-  z-index: -1;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 0.5; }
-}
 .neon-button {
   margin-top: 30px;
   padding: 15px 30px;
@@ -66,20 +41,38 @@
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px #00fff7, 0 0 20px #00bcd4;
-}
+} 
+  
+<a href="https://www.tiktok.com/@xoni" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" width="32" alt="TikTok">
+</a>
+
 
 .neon-button:hover {
   background: #00fff7;
   color: #0d0d0d;
   box-shadow: 0 0 20px #00fff7, 0 0 30px #00bcd4;
+} 
+  
+<style>
+.background-glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(0,255,247,0.2), transparent 70%);
+  animation: pulse 3s infinite ease-in-out;
+  z-index: 0;
 }
+
 
   </style>
 </head>
 <body>
-  <header>Welcome to XONI's World</header>
+  <header>Üdvözöllek Xoni futurisztikus világában</header>
   <div class="intro">
-    <p>XONI is a virtual DJ, mixing the future with the present. Follow the beat, feel the neon pulse, and get lost in sound.</p>
+    <p>
+Weboldal a futurisztikus zenei influenszer, XONI számára.
+</p>
     <button class="neon-button">Listen Now</button>
   </div>
 </body>
